@@ -6,7 +6,7 @@ name :  Termite 用法
 
 1. 以服务模式启动一个agent服务。
 
-> $ ./agent -l p 8888
+> $ ./agent -l 8888
 
 2. 令管理端连接到agent并对agent进行管理。
 
