@@ -16,7 +16,7 @@ name :  Termite
 
 >> help
 
-4. View current node topology.
+4. Check current node topology.
 
 >> show 
  0M
@@ -29,7 +29,7 @@ name :  Termite
 5. Add a new node ( client mode ).
 > ./agent -c 127.0.0.1 -p 8888
 
-6. View current node topology.
+6. Check current node topology.
  0M
  +-- 1M
  |   +-- 2M
@@ -59,7 +59,7 @@ name :  Termite
 >> upfile 2.txt 3.txt
     [@localhost]  2.txt ------> [@2-node] 3.txt
 
-11. Port forward
+11. Port forwarding
 >> goto 2 
 >> lcxtran 3388 10.0.0.1 3389
     localhost:3388 -------> [@2-node] 10.0.0.1:3389
